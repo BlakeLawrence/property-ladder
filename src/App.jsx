@@ -4,6 +4,8 @@ import { Instruction } from "./components/Instructions";
 import { Calculator } from "./components/Calculator";
 
 function App() {
+  //States
+
   return (
     <div>
       <Navbar />
