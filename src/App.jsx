@@ -2,6 +2,7 @@ import { Description } from "./components/Description";
 import { Navbar } from "./components/Navbar";
 import { Instruction } from "./components/Instructions";
 import { Calculator } from "./components/Calculator";
+import { Results } from "./components/Results";
 import { useState } from "react";
 import {
   currency,
@@ -43,6 +44,9 @@ function App() {
           currency={currency}
         />
         <Instruction />
+        <div className={stampDuty <= 0 ? "hidden" : "absolute"}>
+          <Results setStampDuty={setStampDuty} stampDuty={stampDuty} />
+        </div>
       </div>
     </div>
   );

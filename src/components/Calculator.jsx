@@ -1,12 +1,10 @@
 export const Calculator = ({
-  stampDuty,
   setPrice,
   setBuyerStatus,
   buyerStatus,
   calculateFirst,
   calculateNext,
   calculateAdditional,
-  currency,
 }) => {
   const whichRate = () => {
     if (buyerStatus === "first") {
@@ -54,7 +52,6 @@ export const Calculator = ({
         >
           Calculate
         </button>
-        {stampDuty}
       </div>
     </>
   );
