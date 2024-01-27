@@ -7,7 +7,7 @@ export const Description = () => {
             Stamp Duty Calculator
           </h2>
           <div>
-            <div className="border-l-[7px] border-[#6FD8D8] h-[40px] pl-4  text-[19px] mb-10">
+            <div className="border-l-[7px] border-[#6FD8D8] h-[40px] pl-3  text-[19px] mb-10">
               Calculate the Stamp Duty you will owe if you&apos;re purchasing a
               residential property in England or Scotland.
             </div>
