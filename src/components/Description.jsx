@@ -9,7 +9,7 @@ export const Description = () => {
           <div>
             <div className="border-l-[7px] border-[#6FD8D8] h-[40px] pl-4  text-[17px] mb-10">
               Calculate the Stamp Duty you will owe if you&apos;re purchasing a
-              residential property in England or Northern Ireland.
+              residential property in England or Scotland.
             </div>
             <p className="text-[17px]">
               Our calculator lets you know the amount of Stamp Duty you&apos;ll
@@ -20,7 +20,6 @@ export const Description = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-evenly bg-[#a9a9d7] h-[1px] items-center"></div>
     </>
   );
 };
