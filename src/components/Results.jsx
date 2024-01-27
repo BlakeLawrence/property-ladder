@@ -1,6 +1,6 @@
 import { wordChoice } from "../helpers/helpers";
 
-export const Results = ({ setStampDuty, stampDuty, buyerStatus, setPrice }) => {
+export const Results = ({ setStampDuty, stampDuty, buyerStatus }) => {
   return (
     <div className="p-7 bg-[#43e2e2] w-[800px] h-[350px] rounded-lg border border-blue-900">
       <button
