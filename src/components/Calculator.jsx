@@ -20,7 +20,7 @@ export const Calculator = ({
     <>
       <div className="flex flex-col w-[300px]">
         <p>
-          You&apos;ll need to select and input both elements of this form to get
+          You&apos;ll need to select and fill both elements of this form to get
           a result.
         </p>
         <label className="mt-5" htmlFor="home-type">
