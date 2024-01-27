@@ -6,6 +6,7 @@ export const Calculator = ({
   calculateFirst,
   calculateNext,
   calculateAdditional,
+  currency,
 }) => {
   const whichRate = () => {
     if (buyerStatus === "first") {

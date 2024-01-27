@@ -40,6 +40,7 @@ function App() {
           calculateNext={calculateNext}
           calculateAdditional={calculateAdditional}
           stampDuty={stampDuty}
+          currency={currency}
         />
         <Instruction />
       </div>

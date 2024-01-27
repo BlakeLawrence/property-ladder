@@ -6,7 +6,7 @@ export function currency(amount) {
   }).format(amount);
 }
 
-// OOP classes
+// OOP classes and instances
 class Taxband {
   constructor(minValue, percentage) {
     this.minValue = minValue;
@@ -15,12 +15,25 @@ class Taxband {
 }
 
 let firstTimeTaxBands = [
-  new Taxband(750000, 12),
-  new Taxband(325000, 10),
-  new Taxband(250000, 5),
-  new Taxband(175000, 2),
+  new Taxband(1500000, 12),
+  new Taxband(925000, 10),
+  new Taxband(425000, 5),
 ];
 
+let nextTimeTaxBands = [
+  new Taxband(1500000, 12),
+  new Taxband(925000, 10),
+  new Taxband(250000, 5),
+];
+
+let additionalTaxBands = [
+  new Taxband(1500000, 15),
+  new Taxband(925000, 13),
+  new Taxband(250000, 8),
+  new Taxband(0, 3),
+];
+
+//buyer rate functions using above classes
 export function firstTimeBuyerRate(price) {
   let taxOwed = 0;
   for (let i = 0; i < firstTimeTaxBands.length; i++) {
@@ -33,12 +46,6 @@ export function firstTimeBuyerRate(price) {
 
   return taxOwed;
 }
-let nextTimeTaxBands = [
-  new Taxband(750000, 12),
-  new Taxband(325000, 10),
-  new Taxband(250000, 5),
-  new Taxband(175000, 2),
-];
 
 export function nextTimeBuyerRate(price) {
   let taxOwed = 0;
@@ -52,12 +59,6 @@ export function nextTimeBuyerRate(price) {
 
   return taxOwed;
 }
-let additionalTaxBands = [
-  new Taxband(750000, 12),
-  new Taxband(325000, 10),
-  new Taxband(250000, 5),
-  new Taxband(175000, 2),
-];
 
 export function additionalBuyerRate(price) {
   let taxOwed = 0;
