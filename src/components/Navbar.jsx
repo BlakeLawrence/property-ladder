@@ -6,7 +6,7 @@ export const Navbar = () => {
           Property Ladder 🪜
         </h1>
       </div>
-      <div className="flex justify-evenly bg-[#8d8d92] h-[4px] items-center"></div>
+      <div className="flex justify-evenly bg-[#b8b8c2] h-[3px] items-center"></div>
     </>
   );
 };

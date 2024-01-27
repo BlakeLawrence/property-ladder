@@ -8,7 +8,6 @@ export const Instruction = () => {
         <li className="text-blue-900">
           <span className="font-bold text-lg">1.</span>
           <span className="text-[17px]">
-            {" "}
             Select type of property you are buying
           </span>
         </li>
@@ -18,10 +17,7 @@ export const Instruction = () => {
         </li>
         <li className="text-blue-900">
           <span className="font-bold text-lg">3.</span>
-          <span className="text-[17px]">
-            {" "}
-            Click &quot;Purchase&quot; button
-          </span>
+          <span className="text-[17px]">Click &quot;Purchase&quot; button</span>
         </li>
       </ol>
     </div>
