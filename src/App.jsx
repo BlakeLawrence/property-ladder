@@ -43,10 +43,18 @@ function App() {
           stampDuty={stampDuty}
           currency={currency}
         />
-        <Instruction />
-        <div className={stampDuty <= 0 ? "hidden" : "absolute"}>
-          <Results setStampDuty={setStampDuty} stampDuty={stampDuty} />
+
+        <div className={stampDuty <= 0 ? "hidden" : "absolute shadow-2xl"}>
+          <Results
+            buyerStatus={buyerStatus}
+            setStampDuty={setStampDuty}
+            stampDuty={stampDuty}
+            setPrice={setPrice}
+            price={price}
+          />
         </div>
+
+        <Instruction />
       </div>
     </div>
   );

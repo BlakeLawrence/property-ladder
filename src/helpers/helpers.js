@@ -72,3 +72,13 @@ export function additionalBuyerRate(price) {
 
   return taxOwed;
 }
+
+export function wordChoice(word) {
+  if (word === "first") {
+    return `${word} time buyer`;
+  } else if (word === "next") {
+    return `${word} home`;
+  } else if (word === "additional") {
+    return `${word} home owner`;
+  }
+}
