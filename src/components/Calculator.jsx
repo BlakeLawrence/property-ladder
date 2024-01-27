@@ -24,7 +24,7 @@ export const Calculator = () => {
           className="border border-blue-900 w-[300px] rounded-md py-1 px-1 mt-1"
           type="text"
         />
-        <button className="bg-pink-700 text-[#ffff] font-bold w-[100px] p-1 rounded-lg mt-3">
+        <button className="bg-[#C82A87] text-[#ffff] font-bold w-[100px] p-1.5 rounded-md mt-3 shadow-md">
           Calculate
         </button>
       </div>

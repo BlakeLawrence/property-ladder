@@ -17,7 +17,9 @@ export const Instruction = () => {
         </li>
         <li className="text-blue-900">
           <span className="font-bold text-lg">3. </span>
-          <span className="text-[17px]">Click &quot;Purchase&quot; button</span>
+          <span className="text-[17px]">
+            Click &quot;Calculate&quot; button
+          </span>
         </li>
       </ol>
     </div>
