@@ -4,7 +4,7 @@ export const Navbar = () => {
       <div className="flex justify-around bg-[#0F19A0] h-[125px] items-center">
         <img
           className="w-[125px] h-[100px] rounded-md"
-          src="./public/stamp-fav.png"
+          src="./stamp-fav.png"
           alt="stamp duty logo"
         />
         <h1 className="text-[#ffffff] text-6xl font-bold">
@@ -12,7 +12,7 @@ export const Navbar = () => {
         </h1>
         <img
           className="w-[125px] h-[100px] rounded-md"
-          src="./public/stamp-fav.png"
+          src="./stamp-fav.png"
           alt="stamp duty logo"
         />
       </div>
