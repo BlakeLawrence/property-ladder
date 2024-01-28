@@ -7,7 +7,7 @@ export const Navbar = () => {
           src="./public/stamp-fav.png"
           alt="stamp duty logo"
         />
-        <h1 className="text-[#ffffff] text-7xl font-bold">
+        <h1 className="text-[#ffffff] text-6xl font-bold">
           Stamp Duty Calculator
         </h1>
         <img
