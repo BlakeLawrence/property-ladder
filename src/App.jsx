@@ -31,7 +31,7 @@ function App() {
     <div>
       <Navbar />
       <Description />
-      <div className="flex justify-center border border-b-blue-200 border-t-blue-200 p-10">
+      <div className="flex flex-col md:flex-row justify-center border border-b-blue-200 border-t-blue-200 p-5 lg:p-10">
         <Calculator
           price={price}
           setPrice={setPrice}

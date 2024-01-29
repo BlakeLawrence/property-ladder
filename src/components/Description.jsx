@@ -1,10 +1,10 @@
 export const Description = () => {
   return (
     <>
-      <div className="flex justify-evenly h-[125px] md:h-[250px]">
+      <div className="flex justify-evenly h-[115px] md:h-[250px]">
         <div className="flex sm:flex-col md:justify-evenly md:w-1/2">
           <div className="flex md:flex-col pt-5 pb-5 pl-2 pr-1 lg:p-0">
-            <div className="border-l-[7px] border-[#6FD8D8] h-[40px] pl-3 text-[10px] sm:text-[11px] md:text-[15px] lg:text-[19px] mb-10">
+            <div className="border-l-[7px] border-[#6FD8D8] h-[40px] pl-3 text-[9px] sm:text-[11px] md:text-[15px] lg:text-[19px] mb-10">
               Calculate the Stamp Duty you will owe if you&apos;re purchasing a
               residential property in England or Scotland.
             </div>
