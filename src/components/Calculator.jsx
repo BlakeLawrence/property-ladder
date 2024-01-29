@@ -23,7 +23,7 @@ export const Calculator = ({
         className={
           stampDuty <= 0
             ? "flex flex-col md:w-[300px]"
-            : "flex flex-col md:w-[300px] blur-sm"
+            : "flex flex-col md:w-[300px] blur-sm relative"
         }
       >
         <p className="text-[12px] sm:text-[12px] md:text-[15px]">
