@@ -1,7 +1,7 @@
 export const Navbar = () => {
   return (
     <>
-      <div className="flex justify-around bg-[#0F19A0]  h-[125px] items-center">
+      <div className="flex justify-around bg-[#0F19A0] h-[125px] items-center">
         <img
           className="w-[40px] h-[40px] md:w-[80px] md:h-[80px] lg:w-[125px] lg:h-[100px] rounded-md"
           src="./stamp-fav.png"
@@ -16,7 +16,7 @@ export const Navbar = () => {
           alt="stamp duty logo"
         />
       </div>
-      <div className="flex justify-evenly bg-[#b8b8c2] h-[3px] items-center"></div>
+      <div className="flex bg-[#b8b8c2] h-[3px]"></div>
     </>
   );
 };
