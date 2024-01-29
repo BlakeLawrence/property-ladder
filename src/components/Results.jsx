@@ -2,7 +2,7 @@ import { wordChoice } from "../helpers/helpers";
 
 export const Results = ({ setStampDuty, stampDuty, buyerStatus }) => {
   return (
-    <div className="p-3 md:p-7 bg-[#43e2e2] w-[300px] md:w-[800px] md:h-[350px] rounded-lg border border-blue-900">
+    <div className="p-3 md:p-7 bg-[#44eaea] w-[300px] md:w-[800px] md:h-[350px] rounded-lg border border-blue-900">
       <button
         className="text-[#ffff] text-[10px] md:text-lg font-extrabold bg-blue-500 px-1 py-0.5 rounded-sm"
         onClick={() => {

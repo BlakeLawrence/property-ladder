@@ -29,8 +29,8 @@ function App() {
 
   return (
     <div>
-      <Navbar />
-      <Description />
+      <Navbar stampDuty={stampDuty} />
+      <Description stampDuty={stampDuty} />
       <div className="flex flex-col md:flex-row justify-center border border-b-blue-200 border-t-blue-200 p-5 lg:p-10">
         <Calculator
           price={price}
@@ -54,7 +54,7 @@ function App() {
           />
         </div>
 
-        <Instruction />
+        <Instruction stampDuty={stampDuty} />
       </div>
     </div>
   );

@@ -1,6 +1,12 @@
-export const Instruction = () => {
+export const Instruction = ({ stampDuty }) => {
   return (
-    <div className="flex-col border rounded-lg border-blue-900 lg:w-[375px] h-[150px] lg:h-[220px] lg:ml-32 p-3 lg:p-5">
+    <div
+      className={
+        stampDuty <= 0
+          ? "flex-col border rounded-lg border-blue-900 lg:w-[375px] h-[150px] lg:h-[220px] lg:ml-32 p-3 lg:p-5"
+          : "flex-col border rounded-lg border-blue-900 lg:w-[375px] h-[150px] lg:h-[220px] lg:ml-32 p-3 lg:p-5 blur-sm"
+      }
+    >
       <h3 className="text-blue-900 font-bold text-[12px] lg:text-lg">
         Calculate how much Stamp Duty you will pay:
       </h3>

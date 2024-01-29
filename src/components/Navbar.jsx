@@ -1,7 +1,13 @@
-export const Navbar = () => {
+export const Navbar = ({ stampDuty }) => {
   return (
     <>
-      <div className="flex justify-around bg-[#0F19A0] h-[125px] items-center">
+      <div
+        className={
+          stampDuty <= 0
+            ? "flex justify-around bg-[#0F19A0] h-[125px] items-center "
+            : "flex justify-around bg-[#0F19A0] h-[125px] items-center blur-sm"
+        }
+      >
         <img
           className="w-[40px] h-[40px] md:w-[80px] md:h-[80px] lg:w-[125px] lg:h-[100px] rounded-md"
           src="./stamp-fav.png"

@@ -1,7 +1,13 @@
-export const Description = () => {
+export const Description = ({ stampDuty }) => {
   return (
     <>
-      <div className="flex justify-evenly h-[115px] md:h-[250px]">
+      <div
+        className={
+          stampDuty <= 0
+            ? "flex justify-evenly h-[115px] md:h-[250px]"
+            : "flex justify-evenly h-[115px] md:h-[250px] blur-sm"
+        }
+      >
         <div className="flex sm:flex-col md:justify-evenly md:w-1/2">
           <div className="flex md:flex-col pt-5 pb-5 pl-2 pr-1 lg:p-0">
             <div className="border-l-[7px] border-[#6FD8D8] h-[40px] pl-3 text-[9px] sm:text-[11px] md:text-[15px] lg:text-[19px] mb-10">

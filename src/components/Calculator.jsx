@@ -5,6 +5,7 @@ export const Calculator = ({
   calculateFirst,
   calculateNext,
   calculateAdditional,
+  stampDuty,
 }) => {
   const whichRate = () => {
     if (buyerStatus === "first") {
@@ -18,7 +19,13 @@ export const Calculator = ({
 
   return (
     <>
-      <div className="flex flex-col md:w-[300px]">
+      <div
+        className={
+          stampDuty <= 0
+            ? "flex flex-col md:w-[300px]"
+            : "flex flex-col md:w-[300px] blur-sm"
+        }
+      >
         <p className="text-[12px] sm:text-[12px] md:text-[15px]">
           You&apos;ll need to select and fill both elements of this form to get
           a result.
