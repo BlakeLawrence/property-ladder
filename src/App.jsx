@@ -31,7 +31,13 @@ function App() {
     <div>
       <Navbar stampDuty={stampDuty} />
       <Description stampDuty={stampDuty} />
-      <div className="flex flex-col md:flex-row justify-center border border-b-blue-200 border-t-blue-200 p-5 lg:p-10">
+      <div
+        className={
+          stampDuty >= 0
+            ? "flex flex-col md:flex-row justify-center border border-b-blue-200 border-t-blue-200 p-5 lg:p-10"
+            : "flex flex-col md:flex-row justify-center  p-5 lg:p-10"
+        }
+      >
         <Calculator
           price={price}
           setPrice={setPrice}
