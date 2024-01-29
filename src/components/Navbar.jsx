@@ -3,11 +3,11 @@ export const Navbar = () => {
     <>
       <div className="flex justify-around bg-[#0F19A0]  h-[125px] items-center">
         <img
-          className="w-[40px] h-[40px] md:w-[125px] md:h-[100px] rounded-md"
+          className="w-[40px] h-[40px] md:w-[80px] md:h-[80px] lg:w-[125px] lg:h-[100px] rounded-md"
           src="./stamp-fav.png"
           alt="stamp duty logo"
         />
-        <h1 className="text-[#ffffff] text-lg md:text-6xl font-bold">
+        <h1 className="text-[#ffffff] text-lg md:text-3xl lg:text-6xl font-bold">
           Stamp Duty Calculator
         </h1>
         <img
