@@ -4,6 +4,7 @@ import {
   firstTimeBuyerRate,
   nextTimeBuyerRate,
   additionalBuyerRate,
+  wordChoice,
 } from "./helpers";
 
 // currency converter function tests
@@ -61,5 +62,18 @@ describe("Additional home buyer function - should calculate appropriate stamp du
   });
   test("Additional home buyer rate over 1.5mil should carry entire 3%, 8% & 13% thresholds + 15% of any amount over 1.5mil", () => {
     expect(additionalBuyerRate(1501000)).toBe(136400);
+  });
+});
+
+// Word Choice function tests
+describe("A function that writes a string within the stamp duty amount results based on homeowner status", () => {
+  test("If user selects first time buyer from drop down menu, the function writes first time buyer", () => {
+    expect(wordChoice("first")).toBe("first time buyer");
+  });
+  test("If user selects next time buyer from drop down menu, the function writes Next home", () => {
+    expect(wordChoice("next")).toBe("next home");
+  });
+  test("If user selects additional home from drop down menu, the function writes addtional home owner", () => {
+    expect(wordChoice("additional")).toBe("additional home owner");
   });
 });
