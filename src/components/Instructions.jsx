@@ -14,7 +14,7 @@ export const Instruction = ({ stampDuty }) => {
         <li className="text-blue-900">
           <span className="font-bold text-[md] lg:text-lg">1. </span>
           <span className="text-[10px] md:text-[14px] lg:text-[17px]">
-            Select type of property you are buying
+            Select type of property you are buying using the drop down menu
           </span>
         </li>
         <li className="text-blue-900">
